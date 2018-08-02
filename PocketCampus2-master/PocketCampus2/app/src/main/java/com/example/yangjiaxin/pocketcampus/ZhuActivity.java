@@ -3,11 +3,16 @@ package com.example.yangjiaxin.pocketcampus;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class ZhuActivity extends AppCompatActivity {
@@ -18,6 +23,8 @@ public class ZhuActivity extends AppCompatActivity {
     private Fragment3 fragment3;
     private Fragment[] fragments;
     private int lastfragment;//用于记录上个选择的Fragment
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -102,5 +109,7 @@ public class ZhuActivity extends AppCompatActivity {
 
 
     }
+
+
 
 }
