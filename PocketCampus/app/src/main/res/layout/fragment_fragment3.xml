@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3">
+
+    <Button
+        android:id="@+id/kaoYan"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignStart="@+id/shetuanbaoming"
+        android:layout_alignTop="@+id/xueXi"
+        android:background="@drawable/kaoyan"
+        android:layout_alignLeft="@+id/shetuanbaoming" />
+
+    <Button
+        android:id="@+id/xueXi"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/jingSai"
+        android:layout_marginBottom="172dp"
+        android:background="@drawable/kaojikaozheng"
+        android:layout_alignLeft="@+id/jingSai" />
+
+    <Button
+        android:id="@+id/jingSai"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/jingsai"
+        android:layout_marginLeft="64dp" />
+
+    <Button
+        android:id="@+id/shetuanbaoming"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/jingSai"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/shetuanbaoming"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp" />
+</RelativeLayout>

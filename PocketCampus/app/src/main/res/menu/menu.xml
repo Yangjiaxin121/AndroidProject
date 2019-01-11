@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:icon="@drawable/life"
+        android:title="生活"
+        android:id="@+id/id1"
+        />
+    <item
+        android:icon="@drawable/job"
+        android:id="@+id/id2"
+        android:title="求职"
+        />
+    <item
+        android:icon="@drawable/study"
+        android:title="学习"
+        android:id="@+id/id3"
+        />
+
+</menu>
